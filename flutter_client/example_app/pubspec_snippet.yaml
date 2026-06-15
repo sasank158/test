@@ -1,0 +1,10 @@
+# Add this to the `dependencies:` section of your example app's pubspec.yaml.
+#
+# Adjust the path so it points at the feature_flag_client folder from this
+# project (relative to your example app's own folder).
+
+dependencies:
+  flutter:
+    sdk: flutter
+  feature_flag_client:
+    path: ../feature-flag-engine/flutter_client/feature_flag_client

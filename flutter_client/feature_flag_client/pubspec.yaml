@@ -1,0 +1,25 @@
+name: feature_flag_client
+description: >
+  Real-time client for the self-hosted Feature Flag & Remote Config Engine.
+  Connects over HTTP + WebSocket and keeps feature flags and remote config
+  values in sync instantly, with support for "everyone", "beta users only",
+  and "percentage rollout" targeting rules.
+version: 0.1.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  web_socket_channel: ^2.4.0
+  crypto: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
