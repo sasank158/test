@@ -133,7 +133,8 @@ now we will run the example fultter app:
    flutter pub get
    flutter run -d chrome
    ```
-  flutter example app in chrome ## ![alt text](image-2.png)
+  flutter example app in chrome ## ![alt text](<img width="1600" height="805" alt="image-2" src="https://github.com/user-attachments/assets/6b34403c-85dc-47df-ba66-283b09b44839" />
+)
 
 
 we will see a screen listing the three demo flags, each showing **ON** or
